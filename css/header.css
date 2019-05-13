@@ -1,0 +1,82 @@
+
+body  {
+    font-size: 16px;
+    color: #757575;
+    font-family: 'Francois One', sans-serif;
+}
+.ul-info {
+   
+      list-style-type: none;
+    
+}
+.title-info {
+    font-size: 16px;
+    color: #757575;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    padding:2.5%;
+    
+}
+.left-profile {
+    align-self: flex-start;
+    padding: 2.5%;
+    
+}
+.right-profile {
+    padding: 2.5%;
+}
+
+.photo-profile {
+    border: 5px solid silver;
+    border-radius: 50px 50px 0 0;
+    
+}
+
+.profile {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid silver;
+    padding: 2.5%;
+}
+
+.info-profile {
+    display: flex;
+    flex-direction: column;
+}
+.main-info {
+    display: flex;
+}
+
+
+
+
+.social-info .contacts {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+.title-links {
+    padding-right: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding:2.5%;
+        
+    }
+}
